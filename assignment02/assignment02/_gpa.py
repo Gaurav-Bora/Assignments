@@ -1,0 +1,11 @@
+quiz=int(input())
+quizw=(quiz/20)*15
+exam=int(input())
+examw=(exam/100)*40
+assignment=int(input())
+assignmentw=(assignment/100)*20
+project=int(input())
+projectw=(project/50)*25
+GPA=(quizw+examw+assignmentw+projectw)/10
+GPA=round(GPA,2)
+print(GPA)

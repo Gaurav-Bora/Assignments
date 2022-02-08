@@ -1,0 +1,6 @@
+st = input()
+a,b,c = st.split()
+a = int (a)
+b = int (b)
+c = int (c)
+print(a*2,b*2,c*2)
